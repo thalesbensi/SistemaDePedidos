@@ -42,7 +42,7 @@ public class Program {
         int n = scan.nextInt();
 
         for (int i = 0; i < n; i++){
-            System.out.println("Enter #" + i + " item data:");
+            System.out.println("Enter #" + (i+1) + " item data:");
             System.out.print("Product name: ");
             scan.nextLine();
             String productName = scan.nextLine();

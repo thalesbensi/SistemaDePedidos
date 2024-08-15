@@ -69,7 +69,7 @@ public class Order {
         sb.append("Order status: ");
         sb.append(status + "\n");
         sb.append("Client: ");
-        sb.append(client + "\n");
+        sb.append(client.getName() + " (" + dateFormat.format(client.getBirthDate()) + ") - " + client.getEmail() + "\n");
         sb.append("Order items:\n");
         for (OrderItem item : itemsList) {
             sb.append(item + "\n");
