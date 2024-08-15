@@ -1,4 +1,4 @@
-package entitites;
+package entities;
 
 public class OrderItem {
     private int quantity;
@@ -29,7 +29,7 @@ public class OrderItem {
         this.price = price;
     }
 
-    public double subTotal(int quantity, double price){
+    public double subTotal(){
         return quantity * price;
     }
 }
