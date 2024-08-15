@@ -29,7 +29,7 @@ public class OrderItem {
         this.price = price;
     }
 
-    public double subTotal(int quantity. double price){
+    public double subTotal(int quantity, double price){
         return quantity * price;
     }
 }
